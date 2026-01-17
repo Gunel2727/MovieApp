@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5796058F-3201-482B-84AC-5C16211D7968}|MovieApp.Pl\\MovieApp.Pl.csproj|c:\\users\\gunelemu\\source\\repos\\movieapppl\\movieapp.pl\\data\\movieappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5796058F-3201-482B-84AC-5C16211D7968}|MovieApp.Pl\\MovieApp.Pl.csproj|solutionrelative:movieapp.pl\\data\\movieappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5CC2D5-A103-464F-9163-FB7568FE0499}|MovieApp.BLL\\MovieApp.BLL.csproj|c:\\users\\gunelemu\\source\\repos\\movieapppl\\movieapp.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5CC2D5-A103-464F-9163-FB7568FE0499}|MovieApp.BLL\\MovieApp.BLL.csproj|solutionrelative:movieapp.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|c:\\users\\gunelemu\\source\\repos\\movieapppl\\movieapp.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|solutionrelative:movieapp.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5796058F-3201-482B-84AC-5C16211D7968}|MovieApp.Pl\\MovieApp.Pl.csproj|c:\\users\\gunelemu\\source\\repos\\movieapppl\\movieapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5796058F-3201-482B-84AC-5C16211D7968}|MovieApp.Pl\\MovieApp.Pl.csproj|solutionrelative:movieapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.Pl\\Data\\MovieAppDbContext.cs",
+              "RelativeDocumentMoniker": "MovieApp.Pl\\Data\\MovieAppDbContext.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.Pl\\Data\\MovieAppDbContext.cs",
+              "RelativeToolTip": "MovieApp.Pl\\Data\\MovieAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:24:37.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "MovieApp.BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.BLL\\Class1.cs",
+              "RelativeToolTip": "MovieApp.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:23:31.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "MovieApp.DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\Class1.cs",
+              "RelativeToolTip": "MovieApp.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:23:05.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.Pl\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApp.Pl\\Program.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.Pl\\Program.cs",
+              "RelativeToolTip": "MovieApp.Pl\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:21:53.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

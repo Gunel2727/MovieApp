@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MovieApp.BLL/MovieApp.BLL.csproj" Id="0d5cc2d5-a103-464f-9163-fb7568fe0499" />
+  <Project Path="MovieApp.DAL/MovieApp.DAL.csproj" Id="eaa2c000-e375-4745-94ed-60cb9056744a" />
+  <Project Path="MovieApp.Pl/MovieApp.PL.csproj" Id="5796058f-3201-482b-84ac-5c16211d7968" />
+</Solution>
