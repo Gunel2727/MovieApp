@@ -9,12 +9,13 @@ namespace MovieApp.DAL.Data
     public class MovieAppDbContext:DbContext
     {
         public DbSet<Director> Directors { get; set; }
+        public DbSet<Movie> Movies { get; set; }
         //public MovieAppDbContext(DbContextOptions<MovieAppDbContext> options) : base(options)
         //{
         //}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=MovieAppDb;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=SUN11\\MAIN;Database=MovieAppDb;Trusted_Connection=True;TrustServerCertificate=True;");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
