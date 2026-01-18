@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\MovieApp.DAL.csproj": {}
+    "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\MovieApp.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\MovieApp.DAL.csproj": {
+    "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\MovieApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\MovieApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\MovieApp.DAL.csproj",
         "projectName": "MovieApp.DAL",
-        "projectPath": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\MovieApp.DAL.csproj",
-        "packagesPath": "C:\\Users\\gunelemu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunelemu\\source\\repos\\MovieAppPL\\MovieApp.DAL\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\MovieApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gunelemu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +49,18 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
