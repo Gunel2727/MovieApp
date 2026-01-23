@@ -110,6 +110,9 @@ namespace MovieApp.DAL.Data.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
+                    b.Property<int>("DirectorId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
@@ -126,7 +129,87 @@ namespace MovieApp.DAL.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DirectorId");
+
                     b.ToTable("Movies", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "A thief who steals secrets through dreams is given a final mission.",
+                            DirectorId = 1,
+                            Duration = 148,
+                            Imdb = 8.8m,
+                            ReleaseYear = new DateTime(2010, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Inception"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Batman faces the Joker, a criminal mastermind who spreads chaos.",
+                            DirectorId = 1,
+                            Duration = 152,
+                            Imdb = 9.0m,
+                            ReleaseYear = new DateTime(2008, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "The Dark Knight"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "A group of astronauts travel through a wormhole to save humanity.",
+                            DirectorId = 2,
+                            Duration = 169,
+                            Imdb = 8.6m,
+                            ReleaseYear = new DateTime(2014, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Interstellar"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Two prisoners form a deep friendship over many years.",
+                            DirectorId = 2,
+                            Duration = 142,
+                            Imdb = 9.3m,
+                            ReleaseYear = new DateTime(1994, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "The Shawshank Redemption"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "The life story of a simple man with a big heart.",
+                            DirectorId = 3,
+                            Duration = 142,
+                            Imdb = 8.8m,
+                            ReleaseYear = new DateTime(1994, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Forrest Gump"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Description = "A hacker discovers the true nature of his reality and fights against its controllers.",
+                            DirectorId = 4,
+                            Duration = 136,
+                            Imdb = 8.7m,
+                            ReleaseYear = new DateTime(1999, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "The Matrix"
+                        });
+                });
+
+            modelBuilder.Entity("MovieApp.DAL.Models.Movie", b =>
+                {
+                    b.HasOne("MovieApp.DAL.Models.Director", "Director")
+                        .WithMany("Movies")
+                        .HasForeignKey("DirectorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Director");
+                });
+
+            modelBuilder.Entity("MovieApp.DAL.Models.Director", b =>
+                {
+                    b.Navigation("Movies");
                 });
 #pragma warning restore 612, 618
         }

@@ -430,3 +430,4 @@ C:\Users\gunelemu\Desktop\MovieApp\MovieApp.Pl\obj\Debug\net10.0\refint\MovieApp
 C:\Users\gunelemu\Desktop\MovieApp\MovieApp.Pl\obj\Debug\net10.0\MovieApp.PL.pdb
 C:\Users\gunelemu\Desktop\MovieApp\MovieApp.Pl\obj\Debug\net10.0\MovieApp.PL.genruntimeconfig.cache
 C:\Users\gunelemu\Desktop\MovieApp\MovieApp.Pl\obj\Debug\net10.0\ref\MovieApp.PL.dll
+C:\Users\user\Desktop\MovieApp\MovieApp.Pl\bin\Debug\net10.0\AutoMapper.dll

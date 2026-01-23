@@ -34,6 +34,9 @@ namespace MovieApp.DAL.Configurations
             builder.Property(d=>d.Region)
                 .IsRequired(false);
 
+            builder.HasIndex(d=>d.Name)
+                .IsUnique();
+
             builder.HasData
                 (
                 new Director
