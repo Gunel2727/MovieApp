@@ -29,8 +29,8 @@ foreach(var movie in movies)
     Console.WriteLine(movie.Title);
 
 
-//var director = await directorService.GetDirectorByIdAsync(1);
-//Console.WriteLine(director.Name);
+var director = await directorService.GetDirectorByIdAsync(2);
+Console.WriteLine(director.Name);
 
 
 
