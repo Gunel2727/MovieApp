@@ -29,15 +29,14 @@ foreach(var movie in movies)
     Console.WriteLine(movie.Title);
 
 
-var director = await directorService.GetDirectorByIdAsync(2);
-Console.WriteLine(director.Name);
+//var director = await directorService.GetDirectorByIdAsync(2);
+//Console.WriteLine(director.Name);
 
 
 
-//var directors = await directorService.GetAllDirectorsSearchAsync("a");
-//foreach(var director in directors)
-//    Console.WriteLine(director.Name);
-
+var directors = await directorService.GetAllDirectorsSearchAsync("a");
+foreach (var director in directors)
+    Console.WriteLine(director.Address);
 //var newDirector = new DirectorCreateDto
 //{
 //    Name="Director Lorem",
