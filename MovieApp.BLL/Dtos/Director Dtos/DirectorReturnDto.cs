@@ -12,6 +12,6 @@ namespace MovieApp.BLL.Dtos.Director_Dtos
         public string? City { get; set; }
         public int Age { get; set; }
         public string? Region { get; set; }
-        public List<string> Movies { get; set; }
+        public List<string>? Movies { get; set; }
     }
 }

@@ -26,7 +26,7 @@ var directorService = serviceProvider.GetService<IDirectorService>();
 var movieService = serviceProvider.GetService<IMovieService>();
 var movies = await movieService.GetAllMoviesAsync();
 foreach(var movie in movies)
-    Console.WriteLine(movie.Title);
+    Console.WriteLine(movie.Description);
 
 
 //var director = await directorService.GetDirectorByIdAsync(2);
@@ -34,9 +34,9 @@ foreach(var movie in movies)
 
 
 
-var directors = await directorService.GetAllDirectorsSearchAsync("a");
-foreach (var director in directors)
-    Console.WriteLine(director.Address);
+//var directors = await directorService.GetAllDirectorsSearchAsync("a");
+//foreach (var director in directors)
+//    Console.WriteLine(director.Address);
 //var newDirector = new DirectorCreateDto
 //{
 //    Name="Director Lorem",
