@@ -6,7 +6,7 @@ namespace MovieApp.BLL.Interfaces
     {
         Task AddMovieAsync(MovieCreateDto movieCreateDto);
         Task DeleteMovieAsync(int id);
-        Task<List<MovieReturnDto>> GetAllMoviesAsync();
+        Task<List<MovieReturnDto>> GetAllMoviesAsync(bool isTracking = false, int page = 1, int take = 2, params string[] includes);
         Task<MovieReturnDto> GetMovieByIdAsync(int id);
         Task<List<MovieReturnDto>> GetMoviesByDirectorAsync(int directorId);
         Task<List<MovieReturnDto>> SearchMovieAsync(string searchValue);

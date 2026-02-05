@@ -6,7 +6,10 @@ using MovieApp.BLL.Dtos.Director_Dtos;
 using MovieApp.BLL.Interfaces;
 using MovieApp.BLL.Profiles;
 using MovieApp.BLL.Services;
+using MovieApp.DAL.Concretes;
 using MovieApp.DAL.Data;
+using MovieApp.DAL.Interfaces;
+using MovieApp.DAL.Models;
 
 
 var serviceCollection = new ServiceCollection();
@@ -21,29 +24,9 @@ serviceCollection.AddAutoMapper(options =>
 });
 serviceCollection.AddScoped<IDirectorService,DirectorService>();
 serviceCollection.AddScoped<IMovieService,MovieService>();
+serviceCollection.AddScoped(typeof(IRepository<>),typeof(Repository<>));
 var serviceProvider = serviceCollection.BuildServiceProvider();
 var directorService = serviceProvider.GetService<IDirectorService>();
 var movieService = serviceProvider.GetService<IMovieService>();
-var movies = await movieService.GetAllMoviesAsync();
-foreach(var movie in movies)
-    Console.WriteLine(movie.Description);
 
-
-//var director = await directorService.GetDirectorByIdAsync(2);
-//Console.WriteLine(director.Name);
-
-
-
-//var directors = await directorService.GetAllDirectorsSearchAsync("a");
-//foreach (var director in directors)
-//    Console.WriteLine(director.Address);
-//var newDirector = new DirectorCreateDto
-//{
-//    Name="Director Lorem",
-//    Description="British-American film director",
-//    Address="Los-Angeles, CA",
-//    City="Los-Angeles",
-//    Age=50,
-//    Region="California"
-//};
-//await directorService.AddDirectorAsync(newDirector);
+var movie=await movieService.GetAllMoviesAsync(false,1,3,"Director");
