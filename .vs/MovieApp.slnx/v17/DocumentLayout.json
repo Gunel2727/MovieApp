@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MovieApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|c:\\users\\user\\desktop\\movieapp\\movieapp.dal\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|solutionrelative:movieapp.dal\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5796058F-3201-482B-84AC-5C16211D7968}|MovieApp.Pl\\MovieApp.PL.csproj|c:\\users\\user\\desktop\\movieapp\\movieapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5796058F-3201-482B-84AC-5C16211D7968}|MovieApp.Pl\\MovieApp.PL.csproj|solutionrelative:movieapp.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D5CC2D5-A103-464F-9163-FB7568FE0499}|MovieApp.BLL\\MovieApp.BLL.csproj|c:\\users\\user\\desktop\\movieapp\\movieapp.bll\\services\\directorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D5CC2D5-A103-464F-9163-FB7568FE0499}|MovieApp.BLL\\MovieApp.BLL.csproj|solutionrelative:movieapp.bll\\services\\directorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|c:\\users\\user\\desktop\\movieapp\\movieapp.dal\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|solutionrelative:movieapp.dal\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|c:\\users\\user\\desktop\\movieapp\\movieapp.dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA2C000-E375-4745-94ED-60CB9056744A}|MovieApp.DAL\\MovieApp.DAL.csproj|solutionrelative:movieapp.dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +31,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.Pl\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApp.Pl\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.Pl\\Program.cs",
+              "RelativeToolTip": "MovieApp.Pl\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T20:05:37.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "MovieApp.DAL\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "MovieApp.DAL\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T19:59:45.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\Concretes\\Repository.cs",
               "RelativeDocumentMoniker": "MovieApp.DAL\\Concretes\\Repository.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.DAL\\Concretes\\Repository.cs",
               "RelativeToolTip": "MovieApp.DAL\\Concretes\\Repository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:27:24.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T17:27:24.76Z"
             },
             {
               "$type": "Document",
@@ -41,10 +73,9 @@
               "RelativeDocumentMoniker": "MovieApp.BLL\\Services\\DirectorService.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MovieApp\\MovieApp.BLL\\Services\\DirectorService.cs",
               "RelativeToolTip": "MovieApp.BLL\\Services\\DirectorService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwEkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowEMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:19:16.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T17:19:16.149Z"
             }
           ]
         }
