@@ -29,4 +29,4 @@ var serviceProvider = serviceCollection.BuildServiceProvider();
 var directorService = serviceProvider.GetService<IDirectorService>();
 var movieService = serviceProvider.GetService<IMovieService>();
 
-var movie=await movieService.GetAllMoviesAsync(false,1,6,"Director");
+var movie=await movieService.GetAllMoviesAsync(true,1,5,"Director");
